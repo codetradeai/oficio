@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofício Inteiro · kit de IA para pequenos negócios (núcleo grátis)</title>
+<meta name="description" content="Kit grátis em português para quem toca pequeno negócio: organiza clientes e organiza você. Instale no Claude Code em 1 passo ou baixe o .zip.">
+<!-- NOME PROVISÓRIO: troque em _fonte/config.json e rode python3 _fonte/montar.py -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="aviso">Rascunho · nome provisório · ainda não publicado</div>
+
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="#"><span class="marca-ico" aria-hidden="true"></span>Ofício Inteiro</a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#instalar">Instalar</a>
+      <a href="#dentro">O que vem</a>
+      <a href="#planos">Grátis x Pro</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <p class="selo">Kit de IA em português · para pequenos negócios</p>
+      <h1>Faz tudo sozinho<br>e o dia <span class="destaque">não rende?</span></h1>
+      <p class="sub">Ofício Inteiro organiza seus clientes <strong>e organiza você</strong>: dia, semana, estudo e caixa.</p>
+      <div class="acoes">
+        <a class="btn btn-pri" href="downloads/oficio-inteiro-nucleo.zip" download>Baixar .zip <small>43 KB</small></a>
+        <a class="btn btn-sec" href="#instalar">Instalar no Claude Code</a>
+      </div>
+      <p class="mini">Grátis · licença MIT · roda no seu computador</p>
+    </div>
+    <div class="term" aria-label="Instalação no Claude Code">
+      <div class="term-bar"><i></i><i></i><i></i><span>Claude Code</span></div>
+      <pre><code><span class="c">› </span>/plugin marketplace add codetradeai/oficio-inteiro
+<span class="c">› </span>/plugin install oficio-inteiro@oficio-inteiro
+<span class="ok">✓ 14 skills · 6 agentes · 9 comandos</span>
+<span class="c">› </span>/meu-dia</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="numeros" aria-label="O que vem no núcleo grátis">
+  <div class="wrap num-grid">
+    <div><b>14</b><span>skills</span></div>
+    <div><b>6</b><span>agentes</span></div>
+    <div><b>9</b><span>comandos</span></div>
+    <div><b>1</b><span>hook de segurança</span></div>
+    <div><b>8</b><span>modelos prontos</span></div>
+  </div>
+</section>
+
+<section id="instalar" class="bloco">
+  <div class="wrap">
+    <h2>Instale em 1 passo</h2>
+    <p class="lead">Cole no Claude Code. Pronto.</p>
+
+    <div class="cmd-card">
+      <div class="cmd-head">
+        <span>Claude Code</span>
+        <button class="copiar" data-copiar="cmd-claude" type="button">Copiar</button>
+      </div>
+      <pre id="cmd-claude"><code>/plugin marketplace add codetradeai/oficio-inteiro
+/plugin install oficio-inteiro@oficio-inteiro</code></pre>
+      <p class="nota">Repositório: <a href="https://github.com/codetradeai/oficio-inteiro">github.com/codetradeai/oficio-inteiro</a></p>
+    </div>
+
+    <div class="alt-grid">
+      <article class="alt">
+        <h3>Sem GitHub: pelo .zip</h3>
+        <ol>
+          <li><a href="downloads/oficio-inteiro-nucleo.zip" download>Baixe o .zip</a> e descompacte.</li>
+          <li>Abra o terminal ao lado da pasta <code>oficio-inteiro</code> e rode <code>claude</code>.</li>
+          <li>Cole:
+            <div class="cmd-mini">
+              <pre id="cmd-zip"><code>/plugin marketplace add ./oficio-inteiro
+/plugin install oficio-inteiro@oficio-inteiro</code></pre>
+              <button class="copiar" data-copiar="cmd-zip" type="button">Copiar</button>
+            </div>
+          </li>
+          <li>Reinicie e digite <code>/</code>.</li>
+        </ol>
+      </article>
+      <article class="alt">
+        <h3>No Grok Bot</h3>
+        <ol>
+          <li>Abra uma skill do .zip, ex.: <code>skills/rotina-do-dia/SKILL.md</code>.</li>
+          <li>Copie o texto e cole no chat com:
+            <div class="cmd-mini">
+              <pre id="cmd-grok"><code>Salve isto como uma skill. Mostre antes de salvar.</code></pre>
+              <button class="copiar" data-copiar="cmd-grok" type="button">Copiar</button>
+            </div>
+          </li>
+          <li>Repita para as skills que quiser.</li>
+        </ol>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="dentro" class="bloco bloco-cinza">
+  <div class="wrap">
+    <h2>O que vem dentro</h2>
+    <p class="lead">Dois pilares. Um kit.</p>
+    <div class="pilares">
+      <article class="pilar">
+        <header><span class="pilar-ico">🏪</span><h3>Negócio</h3><p>5 skills · 3 agentes · 5 comandos. Do primeiro contato à entrega.</p></header>
+        <p class="rotulo">Skills</p>
+        <ul class="chips"><li>deploy-checklist</li><li>diagnostico-pme</li><li>lgpd-pme</li><li>mapa-do-kit</li><li>qa-crm</li></ul>
+        <p class="rotulo">Agentes</p>
+        <ul class="chips"><li>auditor-entrega</li><li>descobridor</li><li>revisor-lgpd</li></ul>
+        <p class="rotulo">Comandos</p>
+        <ul class="chips chips-cmd"><li>/deploy-check</li><li>/diagnostico</li><li>/entrega</li><li>/novo-cliente</li><li>/qa</li></ul>
+        <p class="rotulo">Segurança</p>
+        <ul class="chips"><li>bloqueia chave secreta no front-end</li></ul>
+      </article>
+      <article class="pilar pilar-voce">
+        <header><span class="pilar-ico">🧭</span><h3>Você</h3><p>9 skills · 3 agentes · 4 comandos. Dia, semana, estudo e caixa.</p></header>
+        <p class="rotulo">Skills</p>
+        <ul class="chips"><li>rotina-do-dia</li><li>foco-profundo</li><li>metas-pessoais</li><li>revisao-semanal</li><li>plano-de-estudo</li><li>marca-pessoal</li><li>energia-e-tempo</li><li>saude-financeira-solo</li><li>diario-e-decisoes</li></ul>
+        <p class="rotulo">Agentes</p>
+        <ul class="chips"><li>coach-semanal</li><li>mentor-estudos</li><li>guardiao-do-caixa</li></ul>
+        <p class="rotulo">Comandos</p>
+        <ul class="chips chips-cmd"><li>/meu-dia</li><li>/revisao-semanal</li><li>/diario</li><li>/caixa</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bloco">
+  <div class="wrap">
+    <h2>Sua semana com o kit</h2>
+    <ol class="semana">
+      <li><b>Segunda</b><code>/meu-dia</code><span>3 prioridades em 10 min</span></li>
+      <li><b>Todo dia</b><code>/diario</code><span>2 min para fechar o dia</span></li>
+      <li><b>Sexta</b><code>/revisao-semanal</code><span>o que rendeu, o que travou</span></li>
+      <li><b>Fim do mês</b><code>/caixa</code><span>sobra, reserva, valor-hora</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="planos" class="bloco bloco-cinza">
+  <div class="wrap">
+    <h2>Grátis agora. Pro em breve.</h2>
+    <div class="planos">
+      <article class="plano">
+        <h3>Núcleo</h3>
+        <p class="preco">Grátis</p>
+        <ul>
+          <li>Os 2 pilares completos para começar</li>
+          <li>Diagnóstico, LGPD, QA e entrega</li>
+          <li>Dia, semana, estudo, caixa e diário</li>
+          <li>Hook que bloqueia chave exposta</li>
+          <li>Código aberto (MIT)</li>
+        </ul>
+        <a class="btn btn-pri" href="downloads/oficio-inteiro-nucleo.zip" download>Baixar .zip</a>
+      </article>
+      <article class="plano plano-pro">
+        <h3>Pro <span class="tag tag-escura">hipótese</span></h3>
+        <p class="preco">Em breve</p>
+        <ul>
+          <li>Proposta, preço e contrato</li>
+          <li>CRM no Supabase e fluxos de WhatsApp</li>
+          <li>Kits por ramo: barbearia, clínica, solar</li>
+          <li>Planilha de saúde financeira</li>
+          <li>Aulas e atualizações</li>
+        </ul>
+        <a class="btn btn-sec" href="mailto:contato@codetrade.me?subject=Of%C3%ADcio%20Inteiro%20Pro%20-%20lista%20de%20espera">Quero saber</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bloco">
+  <div class="wrap priv">
+    <div class="priv-ico" aria-hidden="true">🔒</div>
+    <div>
+      <h2>Seus dados ficam no seu computador</h2>
+      <ul class="priv-lista">
+        <li>Sem servidor, sem cadastro, sem rastreio.</li>
+        <li>Diário, metas e caixa numa pasta pessoal separada dos clientes.</li>
+        <li>Nada é enviado ou publicado sem você aprovar.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="bloco bloco-cinza">
+  <div class="wrap faq">
+    <h2>Dúvidas</h2>
+    <details><summary>Preciso saber programar?</summary><p>Não. Você conversa em português. O Claude Code (ou o Grok Bot) faz o resto.</p></details>
+    <details><summary>Quanto custa?</summary><p>O núcleo é grátis. Você só paga a ferramenta de IA que já usa (Claude ou Grok), direto ao fornecedor.</p></details>
+    <details><summary>Funciona fora do Claude Code?</summary><p>As skills funcionam no Grok Bot. Codex e Cursor leem o <code>AGENTS.md</code>, sem garantia de tudo funcionar igual.</p></details>
+    <details><summary>Substitui contador ou terapeuta?</summary><p>Não. O kit organiza e faz boas perguntas. Imposto é estimativa para levar ao contador.</p></details>
+    <details><summary>Como desinstalar?</summary><p>No Claude Code: <code>/plugin uninstall oficio-inteiro@oficio-inteiro</code>. Sua pasta pessoal continua sua.</p></details>
+  </div>
+</section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap rod-in">
+    <div>
+      <p class="marca"><span class="marca-ico" aria-hidden="true"></span>Ofício Inteiro <span class="tag">nome provisório</span></p>
+      <p>Licença MIT · versão 0.1.0</p>
+    </div>
+    <div>
+      <p>Feito pela <a href="https://codetrade.me">Codetrade / C&amp;T.AI</a> · Campo Grande/MS</p>
+      <p><a href="mailto:contato@codetrade.me">contato@codetrade.me</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

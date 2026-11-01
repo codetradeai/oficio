@@ -1,0 +1,17 @@
+{
+  "description": "Segurança: bloqueia gravar chave secreta em arquivo de front-end.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/bloquear-segredos.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

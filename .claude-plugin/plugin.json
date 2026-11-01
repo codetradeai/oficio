@@ -1,0 +1,14 @@
+{
+  "name": "oficio-inteiro",
+  "version": "0.1.0",
+  "description": "Ofício Inteiro (núcleo grátis): kit em português para quem toca pequeno negócio. Pilar Negócio (diagnóstico, LGPD, QA, entrega) e pilar Você (dia, semana, estudo, caixa, diário).",
+  "author": {
+    "name": "Codetrade / C&T.AI",
+    "email": "contato@codetrade.me",
+    "url": "https://codetrade.me"
+  },
+  "homepage": "https://codetrade.me",
+  "repository": "https://github.com/codetradeai/oficio-inteiro",
+  "license": "MIT",
+  "keywords": ["pequenos-negocios", "pt-br", "consultoria", "lgpd", "rotina", "produtividade", "desenvolvimento-pessoal"]
+}

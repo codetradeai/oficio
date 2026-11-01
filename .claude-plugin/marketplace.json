@@ -1,0 +1,24 @@
+{
+  "name": "oficio-inteiro",
+  "owner": {
+    "name": "Codetrade / C&T.AI",
+    "email": "contato@codetrade.me"
+  },
+  "metadata": {
+    "description": "Marketplace do Ofício Inteiro: kit de IA em português para pequenos negócios e para quem toca o negócio."
+  },
+  "plugins": [
+    {
+      "name": "oficio-inteiro",
+      "source": "./",
+      "description": "Ofício Inteiro (núcleo grátis): pilar Negócio + pilar Você.",
+      "version": "0.1.0",
+      "author": { "name": "Codetrade / C&T.AI", "email": "contato@codetrade.me" },
+      "homepage": "https://codetrade.me",
+      "repository": "https://github.com/codetradeai/oficio-inteiro",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["pequenos-negocios", "pt-br", "rotina", "lgpd"]
+    }
+  ]
+}

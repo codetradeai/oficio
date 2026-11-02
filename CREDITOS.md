@@ -40,6 +40,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Base técnica (citação, sem cópia de conteúdo)
+## Base técnica
 - Anthropic Academy, cursos gratuitos: *AI Fluency: Framework & Foundations* (https://anthropic.skilljar.com/ai-fluency-framework-foundations), *AI Fluency for students* (https://anthropic.skilljar.com/ai-fluency-for-students), *AI Fluency for Small Businesses* (https://anthropic.skilljar.com/ai-fluency-for-small-businesses), *Introduction to agent skills* (https://anthropic.skilljar.com/introduction-to-agent-skills).
 - Serviços públicos citados: SAMU 192, CVV 188 (cvv.org.br), Polícia 190, Central de Atendimento à Mulher 180, Disque 100.

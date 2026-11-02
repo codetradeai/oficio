@@ -203,3 +203,4 @@ h3{color:var(--tinta);margin:0 0 10px}
 .alt-grid>*,.planos>*,.teste>*{min-width:0}
 .cmd-mini{min-width:0}
 .cmd-mini pre,.cmd-card pre{overflow-x:auto;max-width:100%}
+.preco-nota{font-size:.9rem;font-weight:600;color:#9fb5ad;letter-spacing:0}

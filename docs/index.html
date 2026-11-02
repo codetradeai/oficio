@@ -7,6 +7,8 @@
 <meta name="description" content="Plugin grátis em português para Claude Code: dia, semana e trimestre olhando trabalho, dinheiro, saúde, estudo, pessoas, casa, propósito e criação. Seus dados ficam no seu computador.">
 <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css">
+<!-- Medição (GA4 G-T3DHD1B451 e Pixel da Meta) só carrega depois do "Aceitar" no banner: assets/consent.js -->
+<script src="assets/consent.js" defer></script>
 </head>
 <body>
 
@@ -18,7 +20,7 @@
       <a href="#testado">Testado</a>
       <a href="#instalar">Instalar</a>
       <a href="#planos">Grátis x Pro</a>
-      <a href="pro/">Pro</a>
+      <a href="pro/" data-evento="clique_conhecer_pro">Pro</a>
       <a href="#faq">Dúvidas</a>
     </nav>
   </div>
@@ -32,10 +34,27 @@
       <h1>Trabalho, contas, saúde, família…<br><span class="destaque">tudo ao mesmo tempo?</span></h1>
       <p class="sub">O Ofício olha <strong>sua vida inteira</strong> e diz o próximo passo pequeno. Todo dia, toda semana.</p>
       <div class="acoes">
-        <a class="btn btn-pri" href="downloads/oficio.zip" download>Baixar .zip <small>75 KB</small></a>
+        <a class="btn btn-pri" href="downloads/oficio.zip" data-evento="download_zip" download>Baixar .zip <small>75 KB</small></a>
         <a class="btn btn-sec" href="#instalar">Instalar no Claude Code</a>
       </div>
       <p class="mini">Grátis · licença MIT · seus dados no seu computador · <a href="#testado">testado com e sem o plugin</a></p>
+      <!-- Captura opcional (Brevo): o download acima NÃO depende deste formulário. Com JS, envia por fetch e mostra a mensagem aqui; sem JS, POST normal. -->
+      <form class="captura" data-evento="cadastro_guia" action="https://55aa7422.sibforms.com/serve/MUIFAAcVThbSAOqNZGdZHgXC3OLTtadOKs9Xq0aZRpm6a-qZoRw8mzLa1CjuX5F1XA_IbpJaSRaXkW24WwBSlBUKGnYyiuY3bN2MWWMAk8s2eb3_cw77-rjTxoQAPoJI8dWwzAaqayD_TRVlY5CrLd14iqM2b1fQpsr2DrQPeYmhuoUGNeooIzO2KXPYPdVSHK37TJDm5K_9mMWBpQ==" method="post" target="_blank" aria-labelledby="captura-titulo">
+        <p class="captura-titulo" id="captura-titulo"><b>Opcional:</b> receba o guia de primeiros passos por e-mail</p>
+        <div class="captura-linha">
+          <label class="sr" for="captura-email">Seu e-mail</label>
+          <input id="captura-email" type="email" name="EMAIL" placeholder="seu e-mail" autocomplete="email" required>
+          <button class="btn btn-guia" type="submit">Quero o guia</button>
+        </div>
+        <label class="captura-lgpd">
+          <input type="checkbox" id="captura-lgpd" required>
+          <span>Aceito receber da Codetrade 3 e-mails em 7 dias sobre o Ofício (primeiros passos, um exemplo de uso e o Ofício Pro). Posso cancelar a qualquer momento pelo link no rodapé. <a href="privacidade.html">Aviso de privacidade</a>.</span>
+        </label>
+        <input type="text" name="email_address_check" value="" class="sr" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="locale" value="pt">
+        <input type="hidden" name="html_type" value="simple">
+        <p class="captura-ok" role="status" hidden>Inscrição feita! Você vai receber o guia no seu e-mail.</p>
+      </form>
     </div>
     <div class="term" aria-label="Instalação no Claude Code">
       <div class="term-bar"><i></i><i></i><i></i><span>Claude Code</span></div>
@@ -152,7 +171,7 @@
       <article class="alt">
         <h3>Sem GitHub: pelo .zip</h3>
         <ol>
-          <li><a href="downloads/oficio.zip" download>Baixe o .zip</a> e descompacte (pasta <code>oficio</code>).</li>
+          <li><a href="downloads/oficio.zip" data-evento="download_zip" download>Baixe o .zip</a> e descompacte (pasta <code>oficio</code>).</li>
           <li>Abra o terminal ao lado da pasta e rode <code>claude</code>.</li>
           <li>Cole:
             <div class="cmd-mini">
@@ -214,7 +233,7 @@
           <li>Proteção de dados e rede de segurança</li>
           <li>Código aberto (MIT)</li>
         </ul>
-        <a class="btn btn-pri" href="downloads/oficio.zip" download>Baixar .zip</a>
+        <a class="btn btn-pri" href="downloads/oficio.zip" data-evento="download_zip" download>Baixar .zip</a>
       </article>
       <article class="plano plano-pro">
         <h3>Ofício Pro</h3>
@@ -227,7 +246,7 @@
           <li>Conteúdo da semana, vídeo e lançamento</li>
           <li>37 skills · 7 dias de garantia pela Hotmart</li>
         </ul>
-        <a class="btn btn-pri" href="pro/">Conhecer o Pro</a>
+        <a class="btn btn-pri" href="pro/" data-evento="clique_conhecer_pro">Conhecer o Pro</a>
       </article>
     </div>
   </div>
@@ -253,11 +272,12 @@
     </div>
     <div>
       <p>Feito pela <a href="https://codetrade.me">Codetrade / C&amp;T.AI</a> · Campo Grande/MS</p>
-      <p><a href="mailto:contato@codetrade.me">contato@codetrade.me</a></p>
+      <p><a href="mailto:contato@codetrade.me">contato@codetrade.me</a> · <a href="privacidade.html">Privacidade</a> · <button type="button" class="link-cookies" data-preferencias-cookies>Preferências de cookies</button></p>
     </div>
   </div>
 </footer>
 
 <script src="assets/app.js"></script>
+<script src="assets/captura.js"></script>
 </body>
 </html>

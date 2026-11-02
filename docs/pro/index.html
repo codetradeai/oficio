@@ -8,6 +8,8 @@
 <link rel="icon" href="../assets/icone.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="stylesheet" href="../assets/pro.css">
+<!-- Medição (GA4 e Pixel da Meta) só depois do "Aceitar": ../assets/consent.js. Compra e checkout: medidos pela Hotmart. -->
+<script src="../assets/consent.js" defer></script>
 </head>
 <body>
 
@@ -19,7 +21,7 @@
       <a href="#testado">Testado</a>
       <a href="#entrega">Como recebe</a>
       <a href="#faq">Dúvidas</a>
-      <a class="btn btn-pri btn-topo" data-checkout href="https://pay.hotmart.com/O108302530U">Comprar</a>
+      <a class="btn btn-pri btn-topo" data-checkout data-evento="clique_comprar_pro" href="https://pay.hotmart.com/O108302530U?sck=site-pro">Comprar</a>
     </nav>
   </div>
 </header>
@@ -42,7 +44,7 @@
         <li>37 skills · 6 agentes · 12 comandos</li>
         <li>7 dias de garantia pela Hotmart</li>
       </ul>
-      <a class="btn btn-pri btn-grande" data-checkout href="https://pay.hotmart.com/O108302530U">Comprar o Pro</a>
+      <a class="btn btn-pri btn-grande" data-checkout data-evento="clique_comprar_pro" href="https://pay.hotmart.com/O108302530U?sck=site-pro">Comprar o Pro</a>
       <p class="oferta-req">Requer Claude Code (conta da Anthropic, à parte).</p>
     </aside>
   </div>
@@ -151,7 +153,7 @@
 <section class="bloco cta-final">
   <div class="wrap cta-in">
     <div><h2>Ofício Pro · R$ 197</h2><p>Pagamento único · atualizações pela área de membros · 7 dias de garantia pela Hotmart</p></div>
-    <a class="btn btn-pri btn-grande" data-checkout href="https://pay.hotmart.com/O108302530U">Comprar o Pro</a>
+    <a class="btn btn-pri btn-grande" data-checkout data-evento="clique_comprar_pro" href="https://pay.hotmart.com/O108302530U?sck=site-pro">Comprar o Pro</a>
   </div>
 </section>
 </main>
@@ -164,7 +166,7 @@
     </div>
     <div>
       <p>Feito pela <a href="https://codetrade.me">Codetrade / C&amp;T.AI</a> · Campo Grande/MS</p>
-      <p><a href="mailto:contato@codetrade.me">contato@codetrade.me</a></p>
+      <p><a href="mailto:contato@codetrade.me">contato@codetrade.me</a> · <a href="../privacidade.html">Privacidade</a> · <button type="button" class="link-cookies" data-preferencias-cookies>Preferências de cookies</button></p>
     </div>
   </div>
 </footer>

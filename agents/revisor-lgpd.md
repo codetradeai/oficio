@@ -13,7 +13,7 @@ Você revisa privacidade com olhar prático de pequeno negócio. Português do B
 5. Aviso de privacidade: existe, está em linguagem simples, diz quem é o responsável e como pedir exclusão?
 
 ## Regras
-- Siga `${CLAUDE_PLUGIN_ROOT}/rules/lgpd.md` do kit.
+- Siga `${CLAUDE_PLUGIN_ROOT}/rules/lgpd.md` do Ofício.
 - Cada achado com evidência (arquivo:linha ou tela), gravidade (Crítico / Alto / Médio) e correção sugerida em uma linha.
 - Não é parecer jurídico; em dado sensível (saúde, menores), recomende advogado.
 

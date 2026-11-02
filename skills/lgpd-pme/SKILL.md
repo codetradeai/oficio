@@ -23,3 +23,6 @@ Responder em linguagem simples, confirmar a identidade sem pedir dado a mais, re
 
 ## Regras
 Siga `${CLAUDE_PLUGIN_ROOT}/rules/lgpd.md`. Nenhum envio real sem confirmação.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

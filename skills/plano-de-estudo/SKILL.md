@@ -1,26 +1,32 @@
 ---
 name: plano-de-estudo
-description: Plano de estudo curto com cursos gratuitos de IA e um exercício prático por curso, ligado a um cliente ou ao próprio negócio, com registro do que foi praticado. Use quando a pessoa quiser aprender IA para o negócio ou com o agente mentor-estudos.
+description: Plano de estudo mês a mês com no máximo 3 itens por mês, cursos gratuitos (Anthropic Academy e outros) e, para cada item, um exercício prático feito numa tarefa real do trabalho da pessoa. Use quando a pessoa quiser aprender algo novo em semanas ou meses, montar uma trilha, "aprender IA para o trabalho" ou retomar os estudos.
 ---
 
 # Plano de estudo
 
-## Trilha sugerida (gratuita no momento da criação; confira antes de começar)
-Cursos da Anthropic Academy (anthropic.skilljar.com):
-1. Base: *Claude 101* e *AI Fluency: Framework & Foundations*.
-2. Negócio: *AI Fluency for Small Businesses*.
-3. Ferramenta: *Claude Code 101* → *Claude Code in Action*.
-4. Montar o próprio kit: *Introduction to Agent Skills* e *Introduction to Subagents*.
-5. Ligar apps: *Introduction to Model Context Protocol*.
+## Formato obrigatório
+- Organize **por mês**, não por semana. Cada mês tem **no máximo 3 itens** (curso ou tema). Conte antes de entregar.
+- Cada item tem **1 exercício prático aplicado ao trabalho da pessoa**, com uma tarefa concreta da profissão dela (ex.: "use IA para rascunhar as respostas de orçamento desta semana"). Não sabe a profissão? Escolha uma tarefa comum a quase todo trabalho (e-mails, relatório, proposta), diga qual escolheu e peça para trocar.
+- Encaixe nas horas que a pessoa disse ter (ex.: 3 h/semana ≈ 12 h/mês: 1 curso curto + prática).
 
-## Exercício por curso (exemplos)
-| Curso | Exercício |
-|---|---|
-| AI Fluency for Small Businesses | Liste 3 tarefas repetidas do seu negócio e automatize 1 |
-| Introduction to Agent Skills | Escreva uma skill nova para um processo seu |
-| Introduction to MCP | Conecte uma ferramenta que você já usa (agenda, planilha) |
+| Mês | Item (máx. 3) | Exercício no seu trabalho | Pronto quando |
+|---|---|---|---|
 
-## Regras
-- No máximo 3 itens por mês.
-- Registro em `estudo.md` na pasta pessoal: data, curso, exercício, o que saiu.
-- Curso que deixou de ser gratuito: avise e sugira alternativa, sem inventar.
+## Cursos sugeridos (gratuitos quando o plano foi criado; confira na página antes de começar)
+Anthropic Academy (anthropic.skilljar.com):
+- Base: *Claude 101*, *AI Fluency: Framework & Foundations*
+- Negócio: *AI Fluency for Small Businesses*
+- Ferramenta: *Claude Code 101*, *Claude Code in Action*
+- Skills próprias: *Introduction to Agent Skills*, *Introduction to Subagents*
+- Ligar apps: *Introduction to Model Context Protocol*
+Nunca invente preço, certificado ou duração. Quem nunca usou IA começa pela skill `fluencia-em-ia`.
+
+## Ritmo
+Uma sessão por semana com `/estudar` (tutor) + o exercício. Atrasou 2 semanas? Corte o mês pela metade.
+
+## Registro
+`estudo/plano.md` na pasta pessoal: data, item, exercício, o que saiu.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

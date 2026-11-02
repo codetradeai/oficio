@@ -29,3 +29,6 @@ Marque cada item com ✅ verificado agora, ❌ falhou ou ⚠️ não verificado 
 
 ## Regra
 Publicar em produção é ação com efeito externo: confirme com o usuário antes do último passo.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

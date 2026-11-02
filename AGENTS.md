@@ -1,10 +1,11 @@
-# Ofício Inteiro: instruções para outras ferramentas (Codex, Cursor e similares)
+# Ofício da Codetrade: instruções para outras ferramentas (Codex, Cursor, Grok Bot e similares)
 
-Este kit foi feito para o Claude Code. Outras ferramentas podem ler as skills em `skills/*/SKILL.md` e os agentes em `agents/*.md` como instruções comuns.
+Feito para o Claude Code, mas cada `skills/*/SKILL.md` funciona como instrução comum.
 
-- Comece por `skills/mapa-do-kit/SKILL.md`.
+- Comece por `skills/mapa-do-oficio/SKILL.md` (ou `skills/perfil-de-vida/SKILL.md` na primeira vez).
 - Siga sempre `rules/` (linguagem, LGPD, privacidade pessoal, limites).
+- Dados pessoais ficam em `$HOME/oficio/` (ou `OFICIO_PASTA`), nunca em pasta de cliente ou repositório.
 - Nada é enviado, publicado ou apagado sem aprovação do usuário.
-- Dados pessoais ficam na pasta pessoal local, nunca na pasta de cliente.
+- Emergência: SAMU 192. Crise: CVV 188. Sem diagnóstico, sem recomendação de investimento.
 
-Suporte limitado fora do Claude Code: sem garantia de que comandos e hooks funcionem igual.
+Fora do Claude Code, comandos e hooks podem não funcionar.

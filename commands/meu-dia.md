@@ -1,7 +1,7 @@
 ---
-description: Planeja o dia em 10 minutos - 3 prioridades, blocos de foco e fechamento
-argument-hint: "[opcional: o que tem hoje]"
+description: Planeja o dia em 10 minutos - 3 prioridades de áreas diferentes, blocos de foco e o que fica para depois
+argument-hint: "[opcional: o que tem hoje, do jeito que vier]"
 ---
 
-Use a skill `oficio-inteiro:rotina-do-dia`. Contexto do usuário: $ARGUMENTS
-Uma pergunta por vez. Termine com as 3 prioridades (cliente, empresa, pessoal) e os blocos de foco. Grave na pasta pessoal só com permissão.
+Use a skill `oficio:rotina-do-dia`. Contexto da pessoa: $ARGUMENTS
+Leia `perfil.md` e o dia anterior, se existirem. Uma pergunta por vez. Termine com 3 prioridades (com área), blocos de foco e "depois". Grave na pasta pessoal só com permissão.

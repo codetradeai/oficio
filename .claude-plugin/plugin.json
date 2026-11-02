@@ -1,14 +1,14 @@
 {
-  "name": "oficio-inteiro",
-  "version": "0.1.0",
-  "description": "Ofício Inteiro (núcleo grátis): kit em português para quem toca pequeno negócio. Pilar Negócio (diagnóstico, LGPD, QA, entrega) e pilar Você (dia, semana, estudo, caixa, diário).",
+  "name": "oficio",
+  "version": "0.2.0",
+  "description": "Ofício da Codetrade (grátis): plugin vida 360 em português. Núcleo (perfil, dia, semana), trabalho, dinheiro, saúde e energia, estudo, relacionamentos, casa, propósito e criação. Tudo em arquivos no seu computador.",
   "author": {
     "name": "Codetrade / C&T.AI",
     "email": "contato@codetrade.me",
     "url": "https://codetrade.me"
   },
-  "homepage": "https://codetrade.me",
-  "repository": "https://github.com/codetradeai/oficio-inteiro",
+  "homepage": "https://codetradeai.github.io/oficio/",
+  "repository": "https://github.com/codetradeai/oficio",
   "license": "MIT",
-  "keywords": ["pequenos-negocios", "pt-br", "consultoria", "lgpd", "rotina", "produtividade", "desenvolvimento-pessoal"]
+  "keywords": ["pt-br", "vida-360", "produtividade", "rotina", "financas-pessoais", "estudo", "pequenos-negocios", "lgpd", "desenvolvimento-pessoal"]
 }

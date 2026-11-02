@@ -12,3 +12,6 @@ description: Protocolo de bloco de foco - objetivo do bloco em uma frase, o que 
 5. **Fim:** o que saiu? Próximo passo? Registre em uma linha no `/diario`.
 
 Se a pessoa não consegue nenhum bloco na semana, use a skill `energia-e-tempo` para achar onde o tempo está indo.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

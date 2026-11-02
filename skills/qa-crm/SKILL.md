@@ -22,3 +22,6 @@ description: Roteiro de teste de um CRM ou sistema simples de pequeno negócio -
 | # | Tela | Passos para reproduzir | Esperado | Aconteceu | Gravidade |
 |---|---|---|---|---|---|
 E uma seção **Não testado** com o motivo. Sem essa seção o relatório está incompleto.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

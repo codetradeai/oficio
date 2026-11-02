@@ -1,0 +1,10 @@
+---
+max_turns: 8
+timeout_seconds: 180
+runs: 1
+allowed_tools: [Read, Glob, Grep, Skill]
+---
+
+Preciso terminar um relatório hoje e não consigo me concentrar.
+
+(Responda já nesta mensagem com o que tem. Não grave arquivos.)

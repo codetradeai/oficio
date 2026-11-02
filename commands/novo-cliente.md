@@ -1,5 +1,5 @@
 ---
-description: Cria a pasta padrão de um cliente novo (ficha, escopo, decisões, entrega) a partir dos modelos do kit
+description: Cria a pasta padrão de um cliente novo (ficha, escopo, decisões, entrega) a partir dos modelos do Ofício
 argument-hint: "[nome do negócio]"
 ---
 

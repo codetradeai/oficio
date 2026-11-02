@@ -1,7 +1,7 @@
 ---
-description: Registra o diário do dia (2 minutos) ou uma decisão com data de revisão
-argument-hint: "[o que aconteceu ou a decisão]"
+description: Fecha o dia em 2 minutos e registra decisões com data de revisão
+argument-hint: "[opcional: como foi o dia]"
 ---
 
-Use a skill `oficio-inteiro:diario-e-decisoes` com: $ARGUMENTS
-Se o texto contém uma decisão, registre também em `decisoes.md`. Tudo na pasta pessoal, nunca na pasta de cliente.
+Use a skill `oficio:diario-e-decisoes` com: $ARGUMENTS
+Três perguntas curtas (saiu, travou, energia 1 a 5) e "amanhã começo por". Se houver decisão, registre com data de revisão. Grave na pasta pessoal só com permissão.

@@ -1,15 +1,27 @@
 {
-  "description": "Segurança: bloqueia gravar chave secreta em arquivo de front-end.",
+  "description": "Ofício da Codetrade: lembrete do dia, migração da pasta antiga, rede de segurança (CVV 188/SAMU 192), proteção de dados pessoais e bloqueio de chave secreta no front-end.",
   "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/lembrete-do-dia.py\"", "timeout": 10 }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/rede-de-seguranca.py\"", "timeout": 5 }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": "Write|Edit|MultiEdit",
         "hooks": [
-          {
-            "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/bloquear-segredos.py\"",
-            "timeout": 10
-          }
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/bloquear-segredos.py\"", "timeout": 10 },
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/proteger-dados-pessoais.py\"", "timeout": 10 }
         ]
       }
     ]

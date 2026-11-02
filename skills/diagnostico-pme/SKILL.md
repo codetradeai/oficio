@@ -27,3 +27,6 @@ Comece pelo maior impacto com menor esforço. Toda linha com dado pessoal passa 
 
 ## Saída
 `diagnostico.md` na pasta do cliente: problema em uma frase, mapa, tabela, 3 recomendações e o que ficou `SEM DADO`. Siga `${CLAUDE_PLUGIN_ROOT}/rules/pt-br-pme.md`.
+
+## Modo direto
+Se a mensagem já traz as informações necessárias (ou a pessoa pede resposta direta), não refaça as perguntas: entregue o resultado no formato desta skill, marque `SEM DADO` no que faltar e termine com no máximo 2 perguntas.

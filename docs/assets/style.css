@@ -157,3 +157,49 @@ h3{color:var(--tinta);margin:0 0 10px}
   .selo{font-size:.78rem}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+/* vida 360 */
+.dor{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+.dor div{border:1px solid var(--linha);border-radius:var(--raio);padding:20px;background:#fff}
+.dor b{display:block;color:var(--tinta);margin-bottom:4px}
+.dor span{color:var(--suave);font-size:.95rem}
+.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.area{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:18px;border-top:4px solid var(--verde)}
+.area-nucleo{grid-column:1/-1;border-top-color:var(--tinta);display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.area-nucleo h3{margin:0}
+.area h3{font-size:1.05rem;margin:0 0 6px}
+.area p{margin:0 0 10px;color:var(--suave);font-size:.9rem}
+.area .chips li{font-size:.8rem;padding:3px 10px;background:var(--verde-claro);border-color:#c5eedf}
+.area .chips-cmd li{background:var(--cinza);border-color:var(--linha)}
+.limites{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.limites div{background:var(--verde-claro);border-radius:12px;padding:16px}
+.limites b{display:block;font-size:1.6rem;color:var(--verde-esc);line-height:1.1}
+.limites span{font-size:.9rem;color:var(--texto)}
+@media (max-width:860px){.areas{grid-template-columns:1fr 1fr}.dor,.limites{grid-template-columns:1fr}}
+@media (max-width:480px){.areas{grid-template-columns:1fr}}
+
+/* testado */
+.t-legenda{display:flex;gap:20px;font-size:.9rem;color:var(--suave);margin:4px 0 18px}
+.t-legenda span{display:inline-flex;align-items:center;gap:8px}
+.t-dot{width:12px;height:12px;border-radius:4px;display:inline-block}
+.t-dot-com,.t-com{background:var(--verde)}
+.t-dot-sem,.t-sem{background:#c9d3d0}
+.teste{display:grid;grid-template-columns:1fr 1fr;gap:14px 40px}
+.t-linha{display:grid;grid-template-columns:175px 1fr;gap:12px;align-items:center}
+.t-area{font-weight:700;color:var(--tinta);font-size:.95rem}
+.t-barras{display:grid;gap:4px}
+.t-bar{height:18px;width:max(var(--v),2.2em);border-radius:6px;position:relative}
+.t-bar span{position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:.72rem;font-weight:800;line-height:1}
+.t-com span{color:#fff}
+.t-sem span{color:var(--tinta)}
+.t-resumo{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.t-resumo div{border:1px solid var(--linha);border-radius:var(--raio);padding:18px 20px;background:var(--verde-claro)}
+.t-resumo b{display:block;font-size:1.7rem;color:var(--verde-esc);letter-spacing:-.02em}
+.t-resumo span{color:var(--texto);font-size:.92rem}
+.t-nota{color:var(--suave);font-size:.85rem;margin-top:18px;max-width:80ch}
+@media (max-width:860px){.teste{grid-template-columns:1fr}.t-resumo{grid-template-columns:1fr}}
+@media (max-width:480px){.t-linha{grid-template-columns:1fr;gap:6px}}
+/* evita estouro horizontal no celular */
+.alt-grid>*,.planos>*,.teste>*{min-width:0}
+.cmd-mini{min-width:0}
+.cmd-mini pre,.cmd-card pre{overflow-x:auto;max-width:100%}

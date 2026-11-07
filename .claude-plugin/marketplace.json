@@ -14,7 +14,7 @@
       "description": "Ofício da Codetrade (grátis): vida 360 em português, com dados só no seu computador.",
       "version": "0.2.0",
       "author": { "name": "Codetrade / C&T.AI", "email": "contato@codetrade.me" },
-      "homepage": "https://codetradeai.github.io/oficio/",
+      "homepage": "https://oficio.codetrade.me/",
       "repository": "https://github.com/codetradeai/oficio",
       "license": "MIT",
       "category": "productivity",

@@ -13,7 +13,7 @@ A vida não cabe numa lista de tarefas. O Ofício cuida do dia, da semana e do t
 Depois digite `/oficio:comecar`.
 
 ### Sem GitHub: pelo .zip
-1. Baixe `oficio.zip` em https://codetradeai.github.io/oficio/ e descompacte. Vai aparecer a pasta `oficio/`.
+1. Baixe `oficio.zip` em https://oficio.codetrade.me/ e descompacte. Vai aparecer a pasta `oficio/`.
 2. Abra o terminal na pasta onde ela está e rode `claude`.
 3. No Claude Code: `/plugin marketplace add ./oficio` e depois `/plugin install oficio@oficio`.
 4. Reinicie o Claude Code e digite `/oficio:comecar`.

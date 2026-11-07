@@ -2,10 +2,13 @@
 .pro-tag{background:var(--verde);color:#fff;font-size:.72rem;font-weight:800;padding:2px 8px;border-radius:999px;letter-spacing:.04em}
 .menu{align-items:center}
 .btn-topo{padding:8px 14px;font-size:.9rem;color:#fff!important}
-.mini{color:#9fb5ad;font-size:.92rem;margin:0}
+.mini{color:#c8d8d2;font-size:.95rem;margin:0 0 16px}
+.menu a.btn-topo{padding:8px 14px}
 .oferta{background:#fff;color:var(--texto);border-radius:18px;padding:28px;box-shadow:0 20px 50px rgba(0,0,0,.35);border-top:6px solid var(--verde)}
-.oferta-nome{margin:0;font-weight:800;color:var(--suave);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+.oferta-nome{margin:0 0 12px;font-weight:800;color:var(--suave);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
 .oferta-preco{margin:4px 0 14px;font-size:3.4rem;font-weight:800;color:var(--tinta);letter-spacing:-.03em;line-height:1}
+.precos-duplos .oferta-preco{font-size:2.4rem;margin:0}
+.precos-duplos .btn-grande{font-size:.95rem;padding:12px 8px}
 .oferta-preco small{font-size:1.2rem;vertical-align:top;margin-right:4px;color:var(--suave)}
 .oferta ul{list-style:none;padding:0;margin:0 0 20px}
 .oferta li{padding:7px 0 7px 26px;position:relative;border-bottom:1px dashed var(--linha)}
@@ -14,17 +17,15 @@
 .oferta-req{margin:12px 0 0;font-size:.82rem;color:var(--suave);text-align:center}
 .areas-pro{grid-template-columns:repeat(3,1fr)}
 .areas-pro .chips{margin-bottom:8px}
-.passos{list-style:none;padding:0;margin:8px 0 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.passos li{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:20px}
-.passos b{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--verde);color:#fff;margin-bottom:10px}
-.passos h3{font-size:1.05rem;margin:0 0 4px}
-.passos span{color:var(--suave);font-size:.92rem}
+.passos{grid-template-columns:repeat(4,1fr)}
 .cmd-pro{max-width:760px;margin:0}
 .garantia-limites{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.garantia{display:flex;gap:18px;align-items:center;background:var(--verde-claro);border-radius:var(--raio);padding:26px}
+.garantia{display:flex;gap:18px;align-items:flex-start;background:var(--verde-claro);border-radius:var(--raio);padding:26px}
 .g-ico{font-size:2.4rem}
 .garantia p,.limites-pro p{margin:6px 0 0;color:var(--suave)}
-.limites-pro{border:1px solid var(--linha);border-radius:var(--raio);padding:26px}
+.limites-pro{border:1px solid var(--linha);border-radius:var(--raio);padding:26px;background:#fff}
+.limites-pro ul{margin:8px 0 0;padding-left:18px}
+.limites-pro li{margin:6px 0}
 .cta-final{background:var(--escuro);color:#c8d8d2}
 .cta-final h2{color:#fff}
 .cta-in{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}

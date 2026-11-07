@@ -261,7 +261,8 @@ h3{color:var(--tinta);margin:0 0 10px}
 .antes-col ul{margin:0;padding-left:18px}
 .antes-col li{margin:6px 0}
 .videos{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
-.video-espaco{margin:0}
+.video-espaco{margin:0;max-width:720px}
+.videos .video-espaco{max-width:none}
 .video-tela{aspect-ratio:16/9;background:#0b1512;color:#c8d8d2;border:2px dashed rgba(0,188,125,.7);border-radius:var(--raio);display:grid;place-items:center;text-align:center;padding:18px}
 .video-tela p{margin:0;max-width:34ch}
 .video-tela code{background:rgba(255,255,255,.1);color:#e9f3ef}
@@ -289,6 +290,7 @@ h3{color:var(--tinta);margin:0 0 10px}
 .faixa-gratis p{margin:12px 0 0;font-size:1.15rem;max-width:46ch;color:#063226}
 .faixa-in{display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}
 .faixa-gratis .btn-sec{color:#04261c;border-color:#04261c}
+.faixa-gratis a{color:#04261c;font-weight:800}
 .btn-branco{background:#fff;color:var(--tinta)}
 .btn-branco:hover{background:var(--verde-claro)}
 .selo-claro{background:rgba(4,38,28,.08);color:#04261c;border-color:transparent}

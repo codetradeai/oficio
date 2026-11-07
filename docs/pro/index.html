@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="stylesheet" href="../assets/pro.css">
 <!-- Medição (GA4 e Pixel da Meta) só depois do "Aceitar": ../assets/consent.js. Compra e checkout: medidos pela Hotmart. -->
-<!-- Assinatura Hotmart 8865228 (Ofício Pro - Assinatura). Links de checkout mensal e anual ainda não estão no repositório: marcadores [LINK CHECKOUT MENSAL] e [LINK CHECKOUT ANUAL]. -->
+<!-- Assinatura Hotmart 8865228 (Ofício Pro - Assinatura). Mensal off=woxgckni, anual off=dztnzyb3. -->
 <script src="../assets/consent.js" defer></script>
 </head>
 <body>
@@ -39,22 +39,20 @@
         <p class="selo">Assinatura · em português · para o Claude</p>
         <h1>O Ofício Pro conduz a IA no seu trabalho. <span class="destaque">Você fala normal.</span></h1>
         <p class="sub">É o complemento pago do Ofício. Você assina, recebe uma chave por e-mail e instala com um comando. A partir daí, pede preço, proposta, texto, carreira ou uma olhada no dinheiro — sem ensinar a ferramenta.</p>
-        <p class="mini">Hoje funciona no Claude Code e no Claude Desktop (Cowork). ChatGPT, Grok e Gemini: em breve.</p>
+        <p class="mini">Hoje funciona no Claude Code. Claude Desktop (Cowork), ChatGPT, Grok e Gemini: em breve.</p>
       </div>
       <aside class="oferta" id="comprar" aria-label="Preços da assinatura">
         <p class="oferta-nome">Ofício Pro · assinatura</p>
         <div class="precos-duplos">
-          <div id="LINK-CHECKOUT-MENSAL">
+          <div>
             <p class="oferta-preco"><small>R$</small>29</p>
             <p class="preco-periodo">por mês</p>
-            <a class="btn btn-pri btn-grande" data-checkout="mensal" data-evento="clique_comprar_pro" href="#LINK-CHECKOUT-MENSAL" aria-describedby="nota-mensal">Assinar mensal</a>
-            <p class="marcador" id="nota-mensal">[LINK CHECKOUT MENSAL]</p>
+            <a class="btn btn-pri btn-grande" data-checkout="mensal" data-evento="clique_comprar_pro" href="https://pay.hotmart.com/T108304780M?off=woxgckni">Assinar mensal</a>
           </div>
-          <div id="LINK-CHECKOUT-ANUAL">
+          <div>
             <p class="oferta-preco"><small>R$</small>290</p>
             <p class="preco-periodo">por ano</p>
-            <a class="btn btn-pri btn-grande" data-checkout="anual" data-evento="clique_comprar_pro" href="#LINK-CHECKOUT-ANUAL" aria-describedby="nota-anual">Assinar anual</a>
-            <p class="marcador" id="nota-anual">[LINK CHECKOUT ANUAL]</p>
+            <a class="btn btn-pri btn-grande" data-checkout="anual" data-evento="clique_comprar_pro" href="https://pay.hotmart.com/T108304780M?off=dztnzyb3">Assinar anual</a>
           </div>
         </div>
         <ul>
@@ -63,13 +61,13 @@
           <li>Habilidades novas entram sozinhas</li>
           <li>Chave por e-mail, instalação com um comando</li>
         </ul>
-        <p class="oferta-req">A conta do Claude é à parte. O link de pagamento destas duas opções ainda não está publicado aqui: os marcadores acima são o lugar dele.</p>
+        <p class="oferta-req">A conta do Claude é à parte. Hoje a instalação é no Claude Code.</p>
       </aside>
     </div>
     <ol class="hero-passos" id="como">
       <li><b>O que é</b><span>Um roteiro pronto, em português, para o uso profissional e para a vida fora do expediente.</span></li>
       <li><b>Como funciona</b><span>Você conta o caso. Ele pergunta o que falta e entrega o rascunho. Publicar ou enviar fica com você.</span></li>
-      <li><b>Como se usa</b><span>Rode <code>npx oficio-pro</code>, cole a chave do e-mail e fale no Claude.</span></li>
+      <li><b>Como se usa</b><span>Rode <code>npx oficio-pro</code>, cole a chave do e-mail e fale no Claude Code.</span></li>
     </ol>
   </div>
 </section>
@@ -172,7 +170,7 @@
       <li><b>1</b><h3>Assine</h3><span>Mensal ou anual, na Hotmart. A chave chega por e-mail.</span></li>
       <li><b>2</b><h3>Rode o comando</h3><span>No Terminal (no Windows, o PowerShell): <code>npx oficio-pro</code>.</span></li>
       <li><b>3</b><h3>Cole a chave</h3><span>Ela não aparece na tela. O servidor confere se a assinatura está ativa.</span></li>
-      <li><b>4</b><h3>Fale no Claude</h3><span>Feche e abra o Claude Code ou o Claude Desktop (Cowork). Peça em português.</span></li>
+      <li><b>4</b><h3>Fale no Claude Code</h3><span>Feche e abra o Claude Code. Peça em português.</span></li>
     </ol>
     <div class="cmd-card cmd-pro">
       <div class="cmd-head"><span>Terminal</span><button class="copiar" data-copiar="cmd-pro" type="button">Copiar</button></div>
@@ -262,7 +260,7 @@
       <div class="cmp-linha" role="row">
         <p role="rowheader">Onde funciona hoje</p>
         <p role="cell"><span class="cmp-quem">Grátis. </span>Claude Code.</p>
-        <p role="cell"><span class="cmp-quem">Pro. </span>Claude Code e Claude Desktop (Cowork).</p>
+        <p role="cell"><span class="cmp-quem">Pro. </span>Claude Code. Claude Desktop (Cowork) e outras IAs: em breve.</p>
       </div>
       <div class="cmp-linha" role="row">
         <p role="rowheader">Instalação</p>
@@ -287,9 +285,9 @@
 <section id="faq" class="bloco">
   <div class="wrap faq">
     <h2>Dúvidas</h2>
-    <details><summary>O que é o Ofício Pro, em uma frase?</summary><p>É uma assinatura que instala no Claude um roteiro pronto, em português, para trabalho, dinheiro, carreira, casa e criação. Você fala normal. Não ensina a ferramenta.</p></details>
+    <details><summary>O que é o Ofício Pro, em uma frase?</summary><p>É uma assinatura que instala no Claude Code um roteiro pronto, em português, para trabalho, dinheiro, carreira, casa e criação. Você fala normal. Não ensina a ferramenta.</p></details>
     <details><summary>Preciso do Ofício grátis?</summary><p>Não é obrigatório. O grátis resolve o dia a dia e é o melhor jeito de testar. O Pro é para o uso profissional. Juntos, um cuida da rotina e o outro do trabalho.</p></details>
-    <details><summary>Em qual IA funciona? Preciso ensinar?</summary><p>Hoje, no Claude: Claude Code e Claude Desktop (Cowork). A instalação é <code>npx oficio-pro</code> com a chave que chega por e-mail. Você não ensina a ferramenta. ChatGPT, Grok e Gemini: em breve.</p></details>
+    <details><summary>Em qual IA funciona? Preciso ensinar?</summary><p>Hoje, no Claude Code. A instalação é <code>npx oficio-pro</code> com a chave que chega por e-mail. Você não ensina a ferramenta. Claude Desktop (Cowork), ChatGPT, Grok e Gemini: em breve.</p></details>
     <details><summary>Como é a cobrança?</summary><p>É assinatura: R$ 29 por mês ou R$ 290 por ano. A chave chega por e-mail depois do pagamento na Hotmart.</p></details>
     <details><summary>Como funciona o reembolso de 7 dias?</summary><p>Em até 7 dias, o reembolso é pela Hotmart. Cancelar a assinatura corta o acesso ao Pro. O que já está salvo no seu computador continua seu.</p></details>
     <details><summary>Onde ficam meus dados?</summary><p>Os arquivos ficam na pasta <code>oficio</code> do seu computador. A conversa passa pelo Claude. O servidor pro.codetrade.me confere a chave e entrega o conteúdo do Pro. O Pro não envia mensagem nem publica nada no seu lugar.</p></details>
@@ -305,12 +303,10 @@
     <p>R$ 29 por mês ou R$ 290 por ano. Reembolso em até 7 dias pela Hotmart. Cancelar a assinatura corta o acesso.</p>
     <div class="precos-duplos precos-cta">
       <div>
-        <a class="btn btn-pri btn-grande" data-checkout="mensal" data-evento="clique_comprar_pro" href="#LINK-CHECKOUT-MENSAL" aria-describedby="nota-mensal-fim">Assinar mensal · R$ 29</a>
-        <p class="marcador" id="nota-mensal-fim">[LINK CHECKOUT MENSAL]</p>
+        <a class="btn btn-pri btn-grande" data-checkout="mensal" data-evento="clique_comprar_pro" href="https://pay.hotmart.com/T108304780M?off=woxgckni">Assinar mensal · R$ 29</a>
       </div>
       <div>
-        <a class="btn btn-pri btn-grande" data-checkout="anual" data-evento="clique_comprar_pro" href="#LINK-CHECKOUT-ANUAL" aria-describedby="nota-anual-fim">Assinar anual · R$ 290</a>
-        <p class="marcador" id="nota-anual-fim">[LINK CHECKOUT ANUAL]</p>
+        <a class="btn btn-pri btn-grande" data-checkout="anual" data-evento="clique_comprar_pro" href="https://pay.hotmart.com/T108304780M?off=dztnzyb3">Assinar anual · R$ 290</a>
       </div>
     </div>
     <p class="cta-gratis">Ainda na dúvida? <a href="../">Teste o Ofício grátis</a>. Ele não pede cartão.</p>

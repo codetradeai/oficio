@@ -1,9 +1,8 @@
 // Links de checkout da assinatura Hotmart "Ofício Pro - Assinatura" (produto 8865228).
-// Deixe vazio até o link existir e estar confirmado. Não apontar para o produto antigo 8863794.
-// Enquanto vazio, o botão mantém o endereço do HTML e o marcador visível [LINK CHECKOUT MENSAL] ou [LINK CHECKOUT ANUAL].
+// Os href do HTML repetem estes endereços para quem navega sem JavaScript.
 var CHECKOUTS = {
-  mensal: "",
-  anual: ""
+  mensal: "https://pay.hotmart.com/T108304780M?off=woxgckni",
+  anual: "https://pay.hotmart.com/T108304780M?off=dztnzyb3"
 };
 
 (function () {

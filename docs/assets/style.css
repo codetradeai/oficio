@@ -271,11 +271,7 @@ h3{color:var(--tinta);margin:0 0 10px}
 .videos{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
 .video-espaco{margin:0;max-width:720px}
 .videos .video-espaco{max-width:none}
-.video-tela{aspect-ratio:16/9;background:#0b1512;color:#c8d8d2;border:2px dashed rgba(0,188,125,.7);border-radius:var(--raio);display:grid;place-items:center;text-align:center;padding:18px}
-.video-tela p{margin:0;max-width:34ch}
-.video-tela code{background:rgba(255,255,255,.1);color:#e9f3ef}
-.video-play{width:58px;height:58px;border-radius:50%;background:var(--verde);display:grid;place-items:center;margin:0 auto 10px}
-.video-play::before{content:"";border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent #fff;margin-left:4px}
+.video-espaco video{width:100%;aspect-ratio:16/9;height:auto;display:block;background:#0b1512;border-radius:var(--raio);object-fit:contain}
 .video-espaco figcaption{margin-top:8px;color:var(--suave);font-size:.88rem}
 .passos{list-style:none;padding:0;margin:8px 0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
 .passos li{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:20px;min-width:0}

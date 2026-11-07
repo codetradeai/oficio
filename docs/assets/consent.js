@@ -47,7 +47,8 @@
     download_zip:        { ga: "file_download",       gaParams: { file_name: "oficio.zip" }, meta: ["trackCustom", "DownloadOficio"] },
     cadastro_guia:       { ga: "generate_lead",       gaParams: { lead_source: "guia_primeiros_passos" }, meta: ["track", "Lead"] },
     clique_comprar_pro:  { ga: "clique_comprar_pro",  gaParams: {}, meta: ["trackCustom", "CliqueComprarPro"] },
-    clique_conhecer_pro: { ga: "clique_conhecer_pro", gaParams: {}, meta: ["trackCustom", "CliqueConhecerPro"] }
+    clique_conhecer_pro: { ga: "clique_conhecer_pro", gaParams: {}, meta: ["trackCustom", "CliqueConhecerPro"] },
+    video_play:          { ga: "video_play",          gaParams: {}, meta: ["trackCustom", "VideoPlay"] }
   };
 
   function medir(nome, extra) {
@@ -57,7 +58,10 @@
     for (var j in (extra || {})) p[j] = extra[j];
     p.transport_type = "beacon";
     try { window.gtag("event", ev.ga, p); } catch (e) {}
-    try { window.fbq(ev.meta[0], ev.meta[1]); } catch (e) {}
+    try {
+      if (nome === "video_play") window.fbq(ev.meta[0], ev.meta[1], { video_name: p.video_name });
+      else window.fbq(ev.meta[0], ev.meta[1]);
+    } catch (e) {}
   }
   window.oficioMedir = medir;
 

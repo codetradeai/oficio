@@ -43,22 +43,26 @@
           <a class="btn btn-sec" href="#instalar">Ver como instalar</a>
         </div>
         <p class="mini">Hoje funciona no Claude Code. Você não ensina a ferramenta. Claude Desktop, ChatGPT, Grok e Gemini: em breve.</p>
-        <!-- Captura opcional (Brevo): o download acima NÃO depende deste formulário. Com JS, envia por fetch e mostra a mensagem aqui; sem JS, POST normal. -->
-        <form class="captura" data-evento="cadastro_guia" action="https://55aa7422.sibforms.com/serve/MUIFAAcVThbSAOqNZGdZHgXC3OLTtadOKs9Xq0aZRpm6a-qZoRw8mzLa1CjuX5F1XA_IbpJaSRaXkW24WwBSlBUKGnYyiuY3bN2MWWMAk8s2eb3_cw77-rjTxoQAPoJI8dWwzAaqayD_TRVlY5CrLd14iqM2b1fQpsr2DrQPeYmhuoUGNeooIzO2KXPYPdVSHK37TJDm5K_9mMWBpQ==" method="post" target="_blank" aria-labelledby="captura-titulo">
+        <!-- Captura opcional do guia. O download acima NÃO depende deste formulário. O aceite daqui é só para e-mails, separado dos cookies de medição. -->
+        <form class="captura" id="captura-guia" method="post" action="#guia" aria-labelledby="captura-titulo" aria-describedby="captura-msg">
           <p class="captura-titulo" id="captura-titulo"><b>Opcional:</b> receba o guia de primeiros passos por e-mail</p>
-          <div class="captura-linha">
-            <label class="sr" for="captura-email">Seu e-mail</label>
-            <input id="captura-email" type="email" name="EMAIL" placeholder="seu e-mail" autocomplete="email" required>
-            <button class="btn btn-guia" type="submit">Quero o guia</button>
+          <div class="captura-campos">
+            <div class="captura-linha">
+              <label class="sr" for="captura-email">Seu e-mail</label>
+              <input id="captura-email" type="email" name="email" placeholder="seu e-mail" autocomplete="email" maxlength="254" required>
+              <button class="btn btn-guia" type="submit">Quero o guia</button>
+            </div>
+            <div class="captura-lgpd">
+              <input type="checkbox" id="captura-consentimento" name="consentimento" value="true" required>
+              <span><label for="captura-consentimento">Aceito receber o guia de primeiros passos e alguns e-mails do Ofício. Posso me descadastrar quando quiser.</label> <a href="privacidade.html">Aviso de privacidade</a>.</span>
+            </div>
+            <div class="captura-isca" aria-hidden="true">
+              <label for="captura-website">Website</label>
+              <input id="captura-website" type="text" name="website" tabindex="-1" autocomplete="off" value="">
+            </div>
           </div>
-          <label class="captura-lgpd">
-            <input type="checkbox" id="captura-lgpd" required>
-            <span>Aceito receber da Codetrade 3 e-mails em 7 dias sobre o Ofício (primeiros passos, um exemplo de uso e o Ofício Pro). Posso cancelar a qualquer momento pelo link no rodapé. <a href="privacidade.html">Aviso de privacidade</a>.</span>
-          </label>
-          <input type="text" name="email_address_check" value="" class="sr" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <input type="hidden" name="locale" value="pt">
-          <input type="hidden" name="html_type" value="simple">
-          <p class="captura-ok" role="status" hidden>Inscrição feita! Você vai receber o guia no seu e-mail.</p>
+          <p class="captura-msg" id="captura-msg" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
+          <noscript><p class="captura-msg erro">Para pedir o guia por aqui, o JavaScript precisa estar ligado. O download do Ofício grátis não depende disso.</p></noscript>
         </form>
       </div>
       <div class="term" aria-label="Exemplo de instalação no Claude Code">

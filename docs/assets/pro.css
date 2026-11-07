@@ -2,7 +2,7 @@
 .pro-tag{background:var(--verde);color:#fff;font-size:.72rem;font-weight:800;padding:2px 8px;border-radius:999px;letter-spacing:.04em}
 .menu{align-items:center}
 .btn-topo{padding:8px 14px;font-size:.9rem;color:#fff!important}
-.mini{color:#c8d8d2;font-size:.95rem;margin:0 0 16px}
+.pro-faixa .mini{color:#c8d8d2;font-size:.95rem;margin:0 0 16px}
 .menu a.btn-topo{padding:8px 14px}
 .oferta{background:#fff;color:var(--texto);border-radius:18px;padding:28px;box-shadow:0 20px 50px rgba(0,0,0,.35);border-top:6px solid var(--verde)}
 .oferta-nome{margin:0 0 12px;font-weight:800;color:var(--suave);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
@@ -17,7 +17,13 @@
 .oferta-req{margin:12px 0 0;font-size:.82rem;color:var(--suave);text-align:center}
 .areas-pro{grid-template-columns:repeat(3,1fr)}
 .areas-pro .chips{margin-bottom:8px}
-.passos{grid-template-columns:repeat(4,1fr)}
+.passos-pro{grid-template-columns:repeat(4,1fr)}
+.pro-faixa{background:radial-gradient(900px 420px at 90% -10%,rgba(0,188,125,.22),transparent 55%),var(--escuro);color:#c8d8d2;padding:72px 0}
+.pro-faixa h2{color:#fff}
+.pro-faixa .lead{color:#c8d8d2}
+.pro-tres{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:10px}
+.pro-tres li{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--raio);padding:14px 16px}
+.pro-tres b{display:block;color:#fff;margin-bottom:4px}
 .cmd-pro{max-width:760px;margin:0}
 .garantia-limites{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .garantia{display:flex;gap:18px;align-items:flex-start;background:var(--verde-claro);border-radius:var(--raio);padding:26px}
@@ -32,5 +38,5 @@
 .cta-in p{margin:0}
 .cta-in .btn-grande{width:auto;min-width:260px}
 .areas-pro>*,.passos>*,.garantia-limites>*{min-width:0}
-@media (max-width:860px){.areas-pro{grid-template-columns:1fr 1fr}.passos{grid-template-columns:1fr 1fr}.garantia-limites{grid-template-columns:1fr}}
-@media (max-width:480px){.areas-pro,.passos{grid-template-columns:1fr}.cta-in .btn-grande{width:100%}.oferta-preco{font-size:3rem}}
+@media (max-width:860px){.areas-pro,.passos-pro{grid-template-columns:1fr 1fr}.garantia-limites{grid-template-columns:1fr}.pro-faixa{padding:52px 0}}
+@media (max-width:480px){.areas-pro,.passos-pro{grid-template-columns:1fr}.cta-in .btn-grande{width:100%}.oferta-preco{font-size:3rem}}

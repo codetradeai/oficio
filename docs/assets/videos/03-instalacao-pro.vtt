@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00:00.901 --> 00:00:04.058
+Assinou o Ofício Pro? Vamos instalar em
+
+00:00:04.078 --> 00:00:05.236
+poucos minutos.
+
+00:00:06.685 --> 00:00:08.387
+Você precisa do Claude Code e
+
+00:00:08.407 --> 00:00:11.857
+do Node.js no computador. A sua chave
+
+00:00:11.877 --> 00:00:14.217
+chega por e-mail, logo depois da
+
+00:00:14.237 --> 00:00:14.808
+compra.
+
+00:00:16.261 --> 00:00:18.409
+Abra o Terminal, ou o
+
+00:00:18.429 --> 00:00:21.981
+PowerShell no Windows, digite npx oficio-pro,
+
+00:00:22.001 --> 00:00:23.694
+e aperte Enter.
+
+00:00:25.141 --> 00:00:28.336
+O instalador pede a sua chave. Copie
+
+00:00:28.356 --> 00:00:31.321
+do e-mail e cole. Ela não aparece
+
+00:00:31.341 --> 00:00:33.400
+na tela, e isso é normal: é
+
+00:00:33.420 --> 00:00:34.782
+para proteger você.
+
+00:00:36.229 --> 00:00:38.275
+Ele confere se a sua assinatura está
+
+00:00:38.295 --> 00:00:41.758
+ativa. Depois, instala tudo e liga a
+
+00:00:41.778 --> 00:00:43.255
+atualização automática.
+
+00:00:44.701 --> 00:00:46.866
+Agora feche e abra o Claude Code,
+
+00:00:46.971 --> 00:00:49.430
+e peça em português, do seu jeito.
+
+00:00:50.161 --> 00:00:52.144
+Por exemplo: me ajuda a montar uma
+
+00:00:52.164 --> 00:00:52.926
+proposta.
+
+00:00:54.373 --> 00:00:56.866
+Se algo travar, rode o mesmo comando
+
+00:00:56.886 --> 00:00:59.941
+de novo. Se continuar, fale com a
+
+00:00:59.961 --> 00:01:01.807
+gente pelo e-mail de suporte.

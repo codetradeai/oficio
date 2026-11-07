@@ -32,3 +32,17 @@
     });
   });
 })();
+
+// Primeiro play de cada vídeo, só se a medição já foi aceita. Sem e-mail, só o nome do vídeo.
+(function () {
+  document.querySelectorAll("video[data-video]").forEach(function (video) {
+    video.addEventListener("play", function () {
+      if (video.getAttribute("data-medido") === "1") return;
+      var aceito = false;
+      try { aceito = localStorage.getItem("oficio-consentimento") === "aceito"; } catch (e) {}
+      if (!aceito || !window.oficioMedir) return;
+      video.setAttribute("data-medido", "1");
+      window.oficioMedir("video_play", { video_name: video.getAttribute("data-video") });
+    });
+  });
+})();
